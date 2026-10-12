@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/sse.md",
+  "full_text": "# Server-Sent Events - `EventSourceResponse` and `ServerSentEvent`\n\nTo stream Server-Sent Events (SSE), use `yield` in your *path operation function* and set `response_class=EventSourceResponse`.\n\nIf you need to set SSE fields like `event`, `id`, `retry`, or `comment`, you can `yield` `ServerSentEvent` objects instead of plain data.\n\nRead more about it in the [FastAPI docs for Server-Sent Events (SSE)](https://fastapi.tiangolo.com/tutorial/server-sent-events/).\n\nYou can import them directly from `fastapi.sse`:\n\n```python\nfrom fastapi.sse import EventSourceResponse, ServerSentEvent\n```\n\n::: fastapi.sse.EventSourceResponse\n\n::: fastapi.sse.ServerSentEvent\n",
+  "char_length": 662
+}

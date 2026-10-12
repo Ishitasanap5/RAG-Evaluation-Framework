@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/response.md",
+  "full_text": "# `Response` class\n\nYou can declare a parameter in a *path operation function* or dependency to be of type `Response` and then you can set data for the response like headers or cookies.\n\nYou can also use it directly to create an instance of it and return it from your *path operations*.\n\nRead more about it in the [FastAPI docs about returning a custom Response](https://fastapi.tiangolo.com/advanced/response-directly/#returning-a-custom-response)\n\nYou can import it directly from `fastapi`:\n\n```python\nfrom fastapi import Response\n```\n\n::: fastapi.Response\n",
+  "char_length": 559
+}

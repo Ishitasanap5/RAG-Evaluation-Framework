@@ -1,0 +1,5 @@
+{
+  "doc_id": "how-to/index.md",
+  "full_text": "# How To - Recipes { #how-to-recipes }\n\nHere you will see different recipes or \"how to\" guides for **several topics**.\n\nMost of these ideas would be more or less **independent**, and in most cases you should only need to study them if they apply directly to **your project**.\n\nIf something seems interesting and useful to your project, go ahead and check it, but otherwise, you might probably just skip them.\n\n/// tip\n\nIf you want to **learn FastAPI** in a structured way (recommended), go and read the [Tutorial - User Guide](../tutorial/index.md) chapter by chapter instead.\n\n///\n",
+  "char_length": 582
+}

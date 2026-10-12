@@ -1,0 +1,562 @@
+[
+  {
+    "question": "What is the benefit of short-lived HTTPS certificates in terms of security?",
+    "type": "conceptual",
+    "gold_doc_id": "deployment/https.md",
+    "gold_start": 3519,
+    "gold_end": 3803
+  },
+  {
+    "question": "What happens to the `TestClient` when running tests asynchronously?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/async-tests.md",
+    "gold_start": 1027,
+    "gold_end": 1360
+  },
+  {
+    "question": "What is the recommended approach for running replicated worker containers after a separate container is running a single process?",
+    "type": "conceptual",
+    "gold_doc_id": "deployment/docker.md",
+    "gold_start": 25325,
+    "gold_end": 25657
+  },
+  {
+    "question": "What happens to RAM consumption when running multiple processes with an API?",
+    "type": "conceptual",
+    "gold_doc_id": "deployment/concepts.md",
+    "gold_start": 11425,
+    "gold_end": 11711
+  },
+  {
+    "question": "What happens to the order of middlewares when adding multiple using @app.middleware() or app.add_middleware()?",
+    "type": "exact-term",
+    "gold_doc_id": "tutorial/middleware.md",
+    "gold_start": 2944,
+    "gold_end": 3194
+  },
+  {
+    "question": "What is the effect of adding `--proxy-headers` to Uvicorn when running behind a TLS Termination Proxy?",
+    "type": "exact-term",
+    "gold_doc_id": "deployment/docker.md",
+    "gold_start": 10855,
+    "gold_end": 11143
+  },
+  {
+    "question": "How does a cache work in dependency resolution?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/dependencies/sub-dependencies.md",
+    "gold_start": 2300,
+    "gold_end": 2613
+  },
+  {
+    "question": "What is the name of the external component used for certificate renewals in Kubernetes with an Ingress Controller?",
+    "type": "conceptual",
+    "gold_doc_id": "deployment/concepts.md",
+    "gold_start": 1881,
+    "gold_end": 2369
+  },
+  {
+    "question": "What happens to the HTTP request after the TLS Termination Proxy decrypts it?",
+    "type": "conceptual",
+    "gold_doc_id": "deployment/https.md",
+    "gold_start": 8111,
+    "gold_end": 8363
+  },
+  {
+    "question": "What is the name of the server that manages HTTPS requests and encrypts responses using a HTTPS certificate?",
+    "type": "conceptual",
+    "gold_doc_id": "deployment/https.md",
+    "gold_start": 2384,
+    "gold_end": 2987
+  },
+  {
+    "question": "What are the available members for the `FastAPI` options?",
+    "type": "conceptual",
+    "gold_doc_id": "reference/fastapi.md",
+    "gold_start": 231,
+    "gold_end": 723
+  },
+  {
+    "question": "What is the purpose of the `yield` keyword in a dependency when used with a database session in a path operation function?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/advanced-dependencies.md",
+    "gold_start": 5188,
+    "gold_end": 5554
+  },
+  {
+    "question": "What is the name of the Python framework that supports WebSocket and has 100% test coverage?",
+    "type": "conceptual",
+    "gold_doc_id": "features.md",
+    "gold_start": 6879,
+    "gold_end": 7312
+  },
+  {
+    "question": "How can multiple processes with the same application be distributed among multiple cores in a server's CPU?",
+    "type": "conceptual",
+    "gold_doc_id": "deployment/concepts.md",
+    "gold_start": 10031,
+    "gold_end": 10337
+  },
+  {
+    "question": "What is the recommended approach for setting replication in a Kubernetes cluster with multiple containers?",
+    "type": "conceptual",
+    "gold_doc_id": "deployment/docker.md",
+    "gold_start": 26714,
+    "gold_end": 27014
+  },
+  {
+    "question": "What happens to the task of 'getting burgers' after completing the task of 'interacting with the counter'?",
+    "type": "conceptual",
+    "gold_doc_id": "async.md",
+    "gold_start": 8119,
+    "gold_end": 8431
+  },
+  {
+    "question": "What happens to machine learning models before the application starts taking requests during startup?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/events.md",
+    "gold_start": 2328,
+    "gold_end": 2613
+  },
+  {
+    "question": "What is the expected maximum length for a parameter in a path operation in OpenAPI schema?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/query-params-str-validations.md",
+    "gold_start": 2993,
+    "gold_end": 3250
+  },
+  {
+    "question": "What order should types be listed in when defining a Union?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/extra-models.md",
+    "gold_start": 4921,
+    "gold_end": 5190
+  },
+  {
+    "question": "What is the name of the process that occurs when an API app calls an external API?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/openapi-callbacks.md",
+    "gold_start": 229,
+    "gold_end": 524
+  },
+  {
+    "question": "What is the recommended way to instantiate objects that need an event loop in asynchronous function calls?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/async-tests.md",
+    "gold_start": 3438,
+    "gold_end": 3831
+  },
+  {
+    "question": "What is the purpose of the `identifier` in a webhook URL?",
+    "type": "exact-term",
+    "gold_doc_id": "advanced/openapi-webhooks.md",
+    "gold_start": 2217,
+    "gold_end": 2487
+  },
+  {
+    "question": "What options are available for configuring a StreamingResponse in FastAPI?",
+    "type": "exact-term",
+    "gold_doc_id": "reference/responses.md",
+    "gold_start": 4182,
+    "gold_end": 4545
+  },
+  {
+    "question": "What happens to exceptions raised in a dependency with `yield` before FastAPI 0.110.0?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/advanced-dependencies.md",
+    "gold_start": 7112,
+    "gold_end": 7403
+  },
+  {
+    "question": "What is the purpose of displaying a customer's turn number on the counter's display?",
+    "type": "conceptual",
+    "gold_doc_id": "async.md",
+    "gold_start": 7645,
+    "gold_end": 7956
+  },
+  {
+    "question": "What happens when an HTTPException is raised from inside a utility function called within a path operation function?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/handling-errors.md",
+    "gold_start": 1340,
+    "gold_end": 1706
+  },
+  {
+    "question": "What happens when Python compares two strings and determines they are not the same?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/security/http-basic-auth.md",
+    "gold_start": 2616,
+    "gold_end": 2966
+  },
+  {
+    "question": "What features does the test client built on HTTPX support?",
+    "type": "conceptual",
+    "gold_doc_id": "alternatives.md",
+    "gold_start": 20280,
+    "gold_end": 20586
+  },
+  {
+    "question": "How do I create a GitHub Discussion Question for a specific use case that needs to exit early from a dependency with `yield`?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/advanced-dependencies.md",
+    "gold_start": 6528,
+    "gold_end": 6844
+  },
+  {
+    "question": "What is the name of the library created on top of AnyIO to improve autocompletion and inline errors?",
+    "type": "exact-term",
+    "gold_doc_id": "async.md",
+    "gold_start": 18953,
+    "gold_end": 19381
+  },
+  {
+    "question": "What is the purpose of the `default=None` parameter in the `Query` function?",
+    "type": "exact-term",
+    "gold_doc_id": "tutorial/query-params-str-validations.md",
+    "gold_start": 3992,
+    "gold_end": 4272
+  },
+  {
+    "question": "How to set validation constraints in a Python application using a library like Pydantic?",
+    "type": "conceptual",
+    "gold_doc_id": "index.md",
+    "gold_start": 19795,
+    "gold_end": 20654
+  },
+  {
+    "question": "What library is required to support form parsing with request.form()?",
+    "type": "exact-term",
+    "gold_doc_id": "index.md",
+    "gold_start": 22882,
+    "gold_end": 23315
+  },
+  {
+    "question": "What happens when a client tries to send a 'santa_tracker' cookie with a value of 'good-list-please'?",
+    "type": "exact-term",
+    "gold_doc_id": "tutorial/cookie-param-models.md",
+    "gold_start": 2415,
+    "gold_end": 2711
+  },
+  {
+    "question": "What is a consequence of TypeScript data not being preserved after compilation to JavaScript?",
+    "type": "exact-term",
+    "gold_doc_id": "alternatives.md",
+    "gold_start": 11015,
+    "gold_end": 11368
+  },
+  {
+    "question": "What command can be used to create a new directory with a specific name when initializing a Python project?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/index.md",
+    "gold_start": 4242,
+    "gold_end": 4568
+  },
+  {
+    "question": "What is the purpose of the `SecurityScopes` feature in path operations?",
+    "type": "exact-term",
+    "gold_doc_id": "advanced/security/oauth2-scopes.md",
+    "gold_start": 11305,
+    "gold_end": 11556
+  },
+  {
+    "question": "What is the effect of stripping the path prefix on the fly when transmitting a request to an app server?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/behind-a-proxy.md",
+    "gold_start": 4944,
+    "gold_end": 5249
+  },
+  {
+    "question": "What is the purpose of `externalValue` compared to `value` in a documentation example?",
+    "type": "exact-term",
+    "gold_doc_id": "tutorial/schema-extra-example.md",
+    "gold_start": 4179,
+    "gold_end": 4494
+  },
+  {
+    "question": "What is the purpose of the `call_next` function in the request processing pipeline?",
+    "type": "exact-term",
+    "gold_doc_id": "tutorial/middleware.md",
+    "gold_start": 1158,
+    "gold_end": 1482
+  },
+  {
+    "question": "What is the issue with AI being used to cheat the FastAPI Experts system?",
+    "type": "conceptual",
+    "gold_doc_id": "fastapi-people.md",
+    "gold_start": 5810,
+    "gold_end": 6148
+  },
+  {
+    "question": "What happens to the scope 'me' when get_current_active_user has get_current_user as a sub-dependency?",
+    "type": "exact-term",
+    "gold_doc_id": "advanced/security/oauth2-scopes.md",
+    "gold_start": 8876,
+    "gold_end": 9128
+  },
+  {
+    "question": "What options are available for customizing an ORJSONResponse object in FastAPI?",
+    "type": "conceptual",
+    "gold_doc_id": "reference/responses.md",
+    "gold_start": 1588,
+    "gold_end": 1920
+  },
+  {
+    "question": "What is the name of the Visual Studio Code extension that enhances FastAPI development workflow?",
+    "type": "conceptual",
+    "gold_doc_id": "editor-support.md",
+    "gold_start": 38,
+    "gold_end": 299
+  },
+  {
+    "question": "What is the required format for the `url` field in the `externalDocs` dictionary?",
+    "type": "exact-term",
+    "gold_doc_id": "tutorial/metadata.md",
+    "gold_start": 3251,
+    "gold_end": 3725
+  },
+  {
+    "question": "What header should be set to prevent caching of a stream?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/server-sent-events.md",
+    "gold_start": 4163,
+    "gold_end": 4632
+  },
+  {
+    "question": "What is the name of the command that groups spans and sends them in the background?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/opentelemetry.md",
+    "gold_start": 4301,
+    "gold_end": 4669
+  },
+  {
+    "question": "What is the name of the ASGI integration for Tartiflette?",
+    "type": "conceptual",
+    "gold_doc_id": "how-to/graphql.md",
+    "gold_start": 637,
+    "gold_end": 1173
+  },
+  {
+    "question": "What is the purpose of the `seek(offset)` method in a file object?",
+    "type": "exact-term",
+    "gold_doc_id": "tutorial/request-files.md",
+    "gold_start": 3189,
+    "gold_end": 3604
+  },
+  {
+    "question": "What is the purpose of setting up shared resources that need to be cleaned up afterwards?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/events.md",
+    "gold_start": 689,
+    "gold_end": 955
+  },
+  {
+    "question": "What is the purpose of using `SpooledTemporaryFile` in a Python script?",
+    "type": "exact-term",
+    "gold_doc_id": "tutorial/request-files.md",
+    "gold_start": 1728,
+    "gold_end": 2440
+  },
+  {
+    "question": "What HTTP request is sent by a browser to a backend when communication from a different origin is authorized?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/cors.md",
+    "gold_start": 1032,
+    "gold_end": 1343
+  },
+  {
+    "question": "How do I navigate from app/routers/items.py to app/dependencies.py?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/bigger-applications.md",
+    "gold_start": 9306,
+    "gold_end": 9721
+  },
+  {
+    "question": "What is the purpose of making all fields optional in the `HeroUpdate` data model?",
+    "type": "exact-term",
+    "gold_doc_id": "tutorial/sql-databases.md",
+    "gold_start": 11404,
+    "gold_end": 11685
+  },
+  {
+    "question": "What is the name of the GitHub repository that combines a full-stack application with Flask and CouchDB?",
+    "type": "exact-term",
+    "gold_doc_id": "alternatives.md",
+    "gold_start": 9744,
+    "gold_end": 10052
+  },
+  {
+    "question": "Is hiding API documentation considered a form of Security through obscurity?",
+    "type": "conceptual",
+    "gold_doc_id": "how-to/conditional-openapi.md",
+    "gold_start": 556,
+    "gold_end": 850
+  },
+  {
+    "question": "What happens when a parameter is declared in both path and singular type parameters?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/body.md",
+    "gold_start": 5646,
+    "gold_end": 5991
+  },
+  {
+    "question": "What IP address does auto-reload listen on by default?",
+    "type": "conceptual",
+    "gold_doc_id": "fastapi-cli.md",
+    "gold_start": 6045,
+    "gold_end": 6345
+  },
+  {
+    "question": "What is the recommended number of people needed to proceed with the language maintenance steps?",
+    "type": "conceptual",
+    "gold_doc_id": "translations.md",
+    "gold_start": 1080,
+    "gold_end": 1519
+  },
+  {
+    "question": "What is the purpose of the `tokenUrl` parameter when creating an instance of `OAuth2PasswordBearer`?",
+    "type": "exact-term",
+    "gold_doc_id": "tutorial/security/first-steps.md",
+    "gold_start": 4907,
+    "gold_end": 5171
+  },
+  {
+    "question": "What is the role of the `magic_data_reader()` function in handling request bodies?",
+    "type": "exact-term",
+    "gold_doc_id": "advanced/path-operation-advanced-configuration.md",
+    "gold_start": 5403,
+    "gold_end": 5713
+  },
+  {
+    "question": "What options are available for customizing the response in FastAPI's UJSONResponse?",
+    "type": "conceptual",
+    "gold_doc_id": "reference/responses.md",
+    "gold_start": 1255,
+    "gold_end": 1586
+  },
+  {
+    "question": "What is typically required for a web API to provide good performance and stability for users?",
+    "type": "conceptual",
+    "gold_doc_id": "deployment/index.md",
+    "gold_start": 254,
+    "gold_end": 508
+  },
+  {
+    "question": "What is served by default from a Content Delivery Network (CDN)?",
+    "type": "conceptual",
+    "gold_doc_id": "how-to/custom-docs-ui-assets.md",
+    "gold_start": 196,
+    "gold_end": 492
+  },
+  {
+    "question": "How does a proxy with a non-stripped path prefix handle API requests?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/behind-a-proxy.md",
+    "gold_start": 9241,
+    "gold_end": 9617
+  },
+  {
+    "question": "Can a response be returned immediately while still processing a slow task, such as sending an email or processing a file?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/background-tasks.md",
+    "gold_start": 327,
+    "gold_end": 764
+  },
+  {
+    "question": "What is the default behavior of auto-reload in a server?",
+    "type": "conceptual",
+    "gold_doc_id": "fastapi-cli.md",
+    "gold_start": 5085,
+    "gold_end": 5440
+  },
+  {
+    "question": "What is OAuth2 with scopes used for in big authentication providers?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/security/oauth2-jwt.md",
+    "gold_start": 10372,
+    "gold_end": 10761
+  },
+  {
+    "question": "How do you declare a Request parameter in a path operation to return a template?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/templates.md",
+    "gold_start": 496,
+    "gold_end": 882
+  },
+  {
+    "question": "What is the purpose of the `media_type` parameter in the API?",
+    "type": "exact-term",
+    "gold_doc_id": "advanced/custom-response.md",
+    "gold_start": 8460,
+    "gold_end": 8769
+  },
+  {
+    "question": "What happens to the `Settings` object returned by `get_settings()` on subsequent calls in the dependencies of subsequent requests?",
+    "type": "exact-term",
+    "gold_doc_id": "advanced/settings.md",
+    "gold_start": 8838,
+    "gold_end": 9111
+  },
+  {
+    "question": "How can I install the FastAPI Extension in VS Code or Cursor?",
+    "type": "conceptual",
+    "gold_doc_id": "editor-support.md",
+    "gold_start": 486,
+    "gold_end": 899
+  },
+  {
+    "question": "What is the purpose of the Dependency Injection system in building integrations and plug-ins?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/dependencies/index.md",
+    "gold_start": 7275,
+    "gold_end": 7583
+  },
+  {
+    "question": "What is the default setting for www_redirect?",
+    "type": "exact-term",
+    "gold_doc_id": "advanced/middleware.md",
+    "gold_start": 2585,
+    "gold_end": 2974
+  },
+  {
+    "question": "What is the default port assumed by a browser when a frontend is run at http://localhost:8080?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/cors.md",
+    "gold_start": 774,
+    "gold_end": 1030
+  },
+  {
+    "question": "What is a suitable alternative to running heavy background computation in the same process as the main application?",
+    "type": "conceptual",
+    "gold_doc_id": "tutorial/background-tasks.md",
+    "gold_start": 3961,
+    "gold_end": 4228
+  },
+  {
+    "question": "What HTTP methods are supported for the /items/{item_id} path?",
+    "type": "conceptual",
+    "gold_doc_id": "index.md",
+    "gold_start": 13752,
+    "gold_end": 14064
+  },
+  {
+    "question": "What is the default method for auto-discovering FastAPI applications in a workspace?",
+    "type": "conceptual",
+    "gold_doc_id": "editor-support.md",
+    "gold_start": 955,
+    "gold_end": 1320
+  },
+  {
+    "question": "What headers does a proxy typically set on requests to its server to indicate that a request was forwarded?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/behind-a-proxy.md",
+    "gold_start": 259,
+    "gold_end": 555
+  },
+  {
+    "question": "What is used to generate a unique operation ID in FastAPI?",
+    "type": "conceptual",
+    "gold_doc_id": "advanced/generate-clients.md",
+    "gold_start": 4299,
+    "gold_end": 4569
+  }
+]

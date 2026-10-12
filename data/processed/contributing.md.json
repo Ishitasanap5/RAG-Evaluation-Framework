@@ -1,0 +1,5 @@
+{
+  "doc_id": "contributing.md",
+  "full_text": "# Contributing\n\nFirst, you might want to see the basic ways to [help FastAPI and get help](help-fastapi.md).\n\n## Developing\n\nTo contribute code to the project, please follow the guidelines in [tiangolo.com - Contributing](https://tiangolo.com/open-source/contributing/).\n",
+  "char_length": 271
+}

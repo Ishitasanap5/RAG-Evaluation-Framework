@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/openapi/index.md",
+  "full_text": "# OpenAPI\n\nThere are several utilities to handle OpenAPI.\n\nYou normally don't need to use them unless you have a specific advanced use case that requires it.\n",
+  "char_length": 158
+}

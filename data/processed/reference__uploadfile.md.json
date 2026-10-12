@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/uploadfile.md",
+  "full_text": "# `UploadFile` class\n\nYou can define *path operation function* parameters to be of the type `UploadFile` to receive files from the request.\n\nYou can import it directly from `fastapi`:\n\n```python\nfrom fastapi import UploadFile\n```\n\n::: fastapi.UploadFile\n    options:\n        members:\n            - file\n            - filename\n            - size\n            - headers\n            - content_type\n            - read\n            - write\n            - seek\n            - close\n",
+  "char_length": 472
+}

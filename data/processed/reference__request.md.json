@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/request.md",
+  "full_text": "# `Request` class\n\nYou can declare a parameter in a *path operation function* or dependency to be of type `Request` and then you can access the raw request object directly, without any validation, etc.\n\nRead more about it in the [FastAPI docs about using Request directly](https://fastapi.tiangolo.com/advanced/using-request-directly/)\n\nYou can import it directly from `fastapi`:\n\n```python\nfrom fastapi import Request\n```\n\n/// tip\n\nWhen you want to define dependencies that should be compatible with both HTTP and WebSockets, you can define a parameter that takes an `HTTPConnection` instead of a `Request` or a `WebSocket`.\n\n///\n\n::: fastapi.Request\n",
+  "char_length": 652
+}

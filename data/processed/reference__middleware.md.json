@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/middleware.md",
+  "full_text": "# Middleware\n\nThere are several middlewares available provided by Starlette directly.\n\nRead more about them in the [FastAPI docs for Middleware](https://fastapi.tiangolo.com/advanced/middleware/).\n\n::: fastapi.middleware.cors.CORSMiddleware\n\nIt can be imported from `fastapi`:\n\n```python\nfrom fastapi.middleware.cors import CORSMiddleware\n```\n\n::: fastapi.middleware.gzip.GZipMiddleware\n\nIt can be imported from `fastapi`:\n\n```python\nfrom fastapi.middleware.gzip import GZipMiddleware\n```\n\n::: fastapi.middleware.httpsredirect.HTTPSRedirectMiddleware\n\nIt can be imported from `fastapi`:\n\n```python\nfrom fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware\n```\n\n::: fastapi.middleware.trustedhost.TrustedHostMiddleware\n\nIt can be imported from `fastapi`:\n\n```python\nfrom fastapi.middleware.trustedhost import TrustedHostMiddleware\n```\n",
+  "char_length": 845
+}

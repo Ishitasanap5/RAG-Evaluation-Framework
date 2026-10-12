@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/fastapi.md",
+  "full_text": "# `FastAPI` class\n\nHere's the reference information for the `FastAPI` class, with all its parameters, attributes and methods.\n\nYou can import the `FastAPI` class directly from `fastapi`:\n\n```python\nfrom fastapi import FastAPI\n```\n\n::: fastapi.FastAPI\n    options:\n        members:\n            - openapi_version\n            - webhooks\n            - state\n            - dependency_overrides\n            - openapi\n            - websocket\n            - include_router\n            - frontend\n            - get\n            - put\n            - post\n            - delete\n            - options\n            - head\n            - patch\n            - trace\n            - on_event\n            - middleware\n            - exception_handler\n",
+  "char_length": 724
+}

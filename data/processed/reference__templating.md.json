@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/templating.md",
+  "full_text": "# Templating - `Jinja2Templates`\n\nYou can use the `Jinja2Templates` class to render Jinja templates.\n\nRead more about it in the [FastAPI docs for Templates](https://fastapi.tiangolo.com/advanced/templates/).\n\nYou can import it directly from `fastapi.templating`:\n\n```python\nfrom fastapi.templating import Jinja2Templates\n```\n\n::: fastapi.templating.Jinja2Templates\n",
+  "char_length": 365
+}

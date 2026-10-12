@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/status.md",
+  "full_text": "# Status Codes\n\nYou can import the `status` module from `fastapi`:\n\n```python\nfrom fastapi import status\n```\n\n`status` is provided directly by Starlette.\n\nIt contains a group of named constants (variables) with integer status codes.\n\nFor example:\n\n* 200: `status.HTTP_200_OK`\n* 403: `status.HTTP_403_FORBIDDEN`\n* etc.\n\nIt can be convenient to quickly access HTTP (and WebSocket) status codes in your app, using autocompletion for the name without having to memorize the integer status codes.\n\nRead more about it in the [FastAPI docs about Response Status Code](https://fastapi.tiangolo.com/tutorial/response-status-code/).\n\n## Example\n\n```python\nfrom fastapi import FastAPI, status\n\napp = FastAPI()\n\n\n@app.get(\"/items/\", status_code=status.HTTP_418_IM_A_TEAPOT)\ndef read_items():\n    return [{\"name\": \"Plumbus\"}, {\"name\": \"Portal Gun\"}]\n```\n\n::: fastapi.status\n",
+  "char_length": 861
+}

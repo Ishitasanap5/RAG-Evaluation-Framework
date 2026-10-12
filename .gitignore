@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+.env
+results_with_ci.csv
+error_analysis.csv

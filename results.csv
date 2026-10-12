@@ -1,0 +1,13 @@
+chunker,retriever,reranker,recall@1,recall@3,recall@5,recall@10,mrr
+fixed,dense,False,0.0,0.0,0.0,0.0,0.0
+fixed,dense,True,0.0,0.0,0.0,0.0,0.0
+fixed,hybrid,False,0.0,0.0,0.0,0.0,0.0
+fixed,hybrid,True,0.0,0.5,0.5,0.5,0.25
+recursive,dense,False,0.0,0.0,0.0,0.0,0.0
+recursive,dense,True,0.0,0.0,0.0,0.0,0.0
+recursive,hybrid,False,0.0,0.0,0.5,0.5,0.125
+recursive,hybrid,True,0.5,0.5,0.5,0.5,0.5
+heading,dense,False,0.0,0.0,0.5,0.5,0.1
+heading,dense,True,0.0,0.0,0.5,0.5,0.1
+heading,hybrid,False,0.0,0.0,0.5,0.5,0.1
+heading,hybrid,True,0.0,0.0,0.0,0.0,0.0

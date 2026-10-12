@@ -1,0 +1,5 @@
+{
+  "doc_id": "advanced/testing-websockets.md",
+  "full_text": "# Testing WebSockets { #testing-websockets }\n\nYou can use the same `TestClient` to test WebSockets.\n\nFor this, you use the `TestClient` in a `with` statement, connecting to the WebSocket:\n\n{* ../../docs_src/app_testing/tutorial002_py310.py hl[27:31] *}\n\n/// note\n\nFor more details, check Starlette's documentation for [testing WebSockets](https://starlette.dev/testclient/#testing-websocket-sessions).\n\n///\n",
+  "char_length": 407
+}

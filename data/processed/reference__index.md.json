@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/index.md",
+  "full_text": "# Reference\n\nHere's the reference or code API, the classes, functions, parameters, attributes, and\nall the FastAPI parts you can use in your applications.\n\nIf you want to **learn FastAPI** you are much better off reading the\n[FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/).\n",
+  "char_length": 285
+}

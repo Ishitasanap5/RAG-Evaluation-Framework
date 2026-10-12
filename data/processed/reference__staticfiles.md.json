@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/staticfiles.md",
+  "full_text": "# Static Files - `StaticFiles`\n\nYou can use the `StaticFiles` class to serve static files, like JavaScript, CSS, images, etc.\n\nRead more about it in the [FastAPI docs for Static Files](https://fastapi.tiangolo.com/tutorial/static-files/).\n\nYou can import it directly from `fastapi.staticfiles`:\n\n```python\nfrom fastapi.staticfiles import StaticFiles\n```\n\n::: fastapi.staticfiles.StaticFiles\n",
+  "char_length": 391
+}

@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/encoders.md",
+  "full_text": "# Encoders - `jsonable_encoder`\n\n::: fastapi.encoders.jsonable_encoder\n",
+  "char_length": 71
+}

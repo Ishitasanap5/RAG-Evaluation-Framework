@@ -1,0 +1,5 @@
+{
+  "doc_id": "environment-variables.md",
+  "full_text": "# Environment Variables { #environment-variables }\n\nAn **environment variable** (also known as an **env var**) is a value that lives outside of your Python code, in the operating system, and can be read by your application and other programs.\n\nFastAPI applications commonly use environment variables for configuration such as database URLs, email credentials, and secret keys.\n\nYou will learn how to use them for application configuration in [Settings and Environment Variables](advanced/settings.md).\n\n## Learn More { #learn-more }\n\nRead the [Environment Variables guide](https://tiangolo.com/guides/environment-variables/) for a detailed, cross-platform explanation, including how to create and read environment variables and how the `PATH` environment variable works.\n",
+  "char_length": 771
+}

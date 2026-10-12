@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/background.md",
+  "full_text": "# Background Tasks - `BackgroundTasks`\n\nYou can declare a parameter in a *path operation function* or dependency function with the type `BackgroundTasks`, and then you can use it to schedule the execution of background tasks after the response is sent.\n\nYou can import it directly from `fastapi`:\n\n```python\nfrom fastapi import BackgroundTasks\n```\n\n::: fastapi.BackgroundTasks\n",
+  "char_length": 377
+}

@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/openapi/models.md",
+  "full_text": "# OpenAPI `models`\n\nOpenAPI Pydantic models used to generate and validate the generated OpenAPI.\n\n::: fastapi.openapi.models\n",
+  "char_length": 125
+}

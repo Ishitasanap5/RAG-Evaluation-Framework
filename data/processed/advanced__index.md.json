@@ -1,0 +1,5 @@
+{
+  "doc_id": "advanced/index.md",
+  "full_text": "# Advanced User Guide { #advanced-user-guide }\n\n## Additional Features { #additional-features }\n\nThe main [Tutorial - User Guide](../tutorial/index.md) should be enough to give you a tour through all the main features of **FastAPI**.\n\nIn the next sections you will see other options, configurations, and additional features.\n\n/// tip\n\nThe next sections are **not necessarily \"advanced\"**.\n\nAnd it's possible that for your use case, the solution is in one of them.\n\n///\n\n## Read the Tutorial first { #read-the-tutorial-first }\n\nYou could still use most of the features in **FastAPI** with the knowledge from the main [Tutorial - User Guide](../tutorial/index.md).\n\nAnd the next sections assume you already read it, and assume that you know those main ideas.\n",
+  "char_length": 757
+}

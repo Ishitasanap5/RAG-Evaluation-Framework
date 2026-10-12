@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/testclient.md",
+  "full_text": "# Test Client - `TestClient`\n\nYou can use the `TestClient` class to test FastAPI applications without creating an actual HTTP and socket connection, just communicating directly with the FastAPI code.\n\nRead more about it in the [FastAPI docs for Testing](https://fastapi.tiangolo.com/tutorial/testing/).\n\nYou can import it directly from `fastapi.testclient`:\n\n```python\nfrom fastapi.testclient import TestClient\n```\n\n::: fastapi.testclient.TestClient\n",
+  "char_length": 450
+}

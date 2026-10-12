@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/openapi/docs.md",
+  "full_text": "# OpenAPI `docs`\n\nUtilities to handle OpenAPI automatic UI documentation, including Swagger UI (by default at `/docs`) and ReDoc (by default at `/redoc`).\n\n::: fastapi.openapi.docs.get_swagger_ui_html\n\n::: fastapi.openapi.docs.get_redoc_html\n\n::: fastapi.openapi.docs.get_swagger_ui_oauth2_redirect_html\n\n::: fastapi.openapi.docs.swagger_ui_default_parameters\n",
+  "char_length": 360
+}

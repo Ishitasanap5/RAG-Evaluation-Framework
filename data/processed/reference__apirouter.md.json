@@ -1,0 +1,5 @@
+{
+  "doc_id": "reference/apirouter.md",
+  "full_text": "# `APIRouter` class\n\nHere's the reference information for the `APIRouter` class, with all its parameters, attributes and methods.\n\nYou can import the `APIRouter` class directly from `fastapi`:\n\n```python\nfrom fastapi import APIRouter\n```\n\n::: fastapi.APIRouter\n    options:\n        members:\n            - websocket\n            - include_router\n            - frontend\n            - get\n            - put\n            - post\n            - delete\n            - options\n            - head\n            - patch\n            - trace\n            - on_event\n",
+  "char_length": 547
+}
